@@ -30,12 +30,12 @@ The Raj Hotel Website is designed to showcase the hotel's offerings, including l
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/sahu-hotel-website.git
+   git clone https://github.com/swarup-raj/Hotel-Management-Fully-Database-Implement/tree/main
    ```
    
 2. **Navigate to the Project Directory:**
    ```bash
-   cd 
+   cd Hotel-Management-Fully-Database-Implement
    ```
 
 3. **Open the Website:**
@@ -43,7 +43,7 @@ The Raj Hotel Website is designed to showcase the hotel's offerings, including l
 
 ## Deployment
 
-
+https://rajhotels.netlify.app
 
 ## Contributing
 
