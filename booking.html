@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book Room</title>
+    <link rel="stylesheet" href="booking.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>𝙱𝚘𝚘𝚔 𝙽𝚘𝚠</header>
+      <form method="post" class="form" name="google-sheet">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" name="Name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" placeholder="Enter email address" name="Email" required />
+        </div>
+
+        <div class="input-box">
+          <label>Phone Number</label>
+          <input type="number" placeholder="Enter phone number" name="Phone" required />
+        </div>
+
+       
+        <div >
+          <div class="room">
+          <h3>Room Type</h3>
+          <div class="room-type">
+            <div class="roomtype">
+              <input type="radio" id="check-male" name="Room" value="ac" checked />
+              <label for="check-male">AC</label>
+            </div>
+            <div class="roomtype">
+              <input type="radio" id="check-female" name="Room" value="non-ac" />
+              <label for="check-female">Non-AC</label>
+            </div>
+          </div>
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Quantity" name="Quantity" required />
+            </div>
+        </div>
+        <button herf="submit.html">Submit</button>
+      </form>
+    </section>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycby8bWzAEqwAE_KAG_dSnwy5r10ZKGk95Rrj6E-S7ytSuhrSy54hsAWsgz_t9mqH3Grd/exec'
+      const form = document.forms['google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Booking...! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+  </body>
+</html>
