@@ -1,6 +1,7 @@
 # Raj Hotel Website
 
 Welcome to the **Raj Hotel Website** repository. This project serves as the official site for Raj, a luxury hotel located in Puri. This README provides an overview of the project structure, setup instructions, and development guidelines.
+![Screenshot 2024-10-24 211534](https://github.com/user-attachments/assets/7ece2a30-0f82-431d-8fe1-9f3651cdc369)
 
 ## Table of Contents
 
