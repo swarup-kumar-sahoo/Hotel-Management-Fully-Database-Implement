@@ -6,7 +6,6 @@ Welcome to the **Raj Hotel Website** repository. This project serves as the offi
 
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Development](#development)
 - [Deployment](#deployment)
