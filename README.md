@@ -41,6 +41,8 @@ The Raj Hotel Website is designed to showcase the hotel's offerings, including l
 3. **Open the Website:**
    Open `index.html` in your preferred web browser to view the site.
 
+![Screenshot 2024-10-24 212450](https://github.com/user-attachments/assets/476ac94e-2107-489d-8944-1c78c3937f25)
+
 ## Deployment
 
 https://rajhotels.netlify.app
